@@ -1,0 +1,113 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $main-background-theme;
+}
+
+.adress {
+  font-style: normal;
+}
+
+.adress__link {
+  display: block;
+  margin-bottom: 9px;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $text-color-dark-theme;
+  transition: color $main-transition;
+  &:hover,
+  &:focus {
+    color: $cursor-text-color;
+  }
+}
+
+.adress-menu__element {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  transition: color $main-transition;
+  &:hover,
+  &:focus {
+    color: $cursor-text-color;
+  }
+}
+
+.adress-menu__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.footer-soc__menu {
+  margin-left: 70px;
+}
+.footer-soc__title {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $text-color-dark-theme;
+}
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
+.networks {
+  display: flex;
+}
+
+.networks__item {
+  margin-left: 10px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  &:first-child {
+    margin: 0;
+  }
+}
+
+.subscribes__footer {
+  margin-left: auto;
+}
+.subscribes__form {
+  display: inline-flex;
+}
+.subscribes__label .subscribes__input {
+  padding-left: 16px;
+  width: 358px;
+  height: 50px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: transparent;
+  &:focus,
+  &:checked {
+    border: 2px solid $cursor-text-color;
+    outline: none;
+  }
+}
+
+.subcribes__btn {
+  display: flex;
+  margin-left: 12px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color var(--main-transition);
+  &:hover,
+  &:focus {
+    background-color: $button-hover-color;
+  }
+}
+
+.subcribes__icon {
+  margin-left: 10px;
+}

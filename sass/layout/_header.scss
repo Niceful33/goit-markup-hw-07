@@ -1,0 +1,79 @@
+.header {
+  display: flex;
+  border-bottom: 1px solid #ececec;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav {
+  margin-left: 93px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu__item:not(:first-child) {
+  margin-left: 50px;
+}
+
+.menu__link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: $main-text-color;
+  transition: color $main-transition;
+  &:hover,
+  &:focus {
+    color: $cursor-text-color;
+  }
+}
+.menu__link--active {
+  position: relative;
+  color: $active-text-color;
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: $active-text-color;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+}
+
+.header__contacts {
+  display: flex;
+  margin-left: auto;
+}
+.contacts__item:last-child {
+  margin-left: 50px;
+}
+.contacts__link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+  color: $secondary-text-color;
+  transition: color $main-transition;
+  &:hover,
+  &:focus {
+    color: $cursor-text-color;
+  }
+}
+.contacts__icon-header {
+  fill: currentColor;
+  margin-right: 10px;
+}
