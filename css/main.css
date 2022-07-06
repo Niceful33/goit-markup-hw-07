@@ -91,7 +91,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.btn, .btn-form, .subcribes__btn {
+.btn {
   min-width: 200px;
   min-height: 50px;
   font-weight: 700;
@@ -107,7 +107,7 @@ img {
   background-color: #2196f3;
 }
 
-.soc-list__link, .soc-list__link--footer, .soc-list__link--team {
+.soc-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
