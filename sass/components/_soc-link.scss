@@ -8,6 +8,7 @@
 }
 
 .soc-list__link--team {
+  @extend .soc-list__link;
   fill: $employees-color-link;
   transition: color $main-transition, background-color $main-transition;
   &:hover,
@@ -17,6 +18,7 @@
   }
 }
 .soc-list__link--footer {
+  @extend .soc-list__link;
   fill: $text-color-dark-theme;
   transition: background-color $main-transition;
   &:hover,

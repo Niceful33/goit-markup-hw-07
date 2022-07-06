@@ -107,7 +107,7 @@ img {
   background-color: #2196f3;
 }
 
-.soc-list__link {
+.soc-list__link, .soc-list__link--footer, .soc-list__link--team {
   display: flex;
   align-items: center;
   justify-content: center;
