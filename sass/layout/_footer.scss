@@ -96,6 +96,7 @@
 }
 
 .subcribes__btn {
+  @extend .btn;
   display: flex;
   margin-left: 12px;
   justify-content: center;

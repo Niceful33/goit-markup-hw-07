@@ -91,7 +91,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.btn {
+.btn, .btn-form, .subcribes__btn {
   min-width: 200px;
   min-height: 50px;
   font-weight: 700;
